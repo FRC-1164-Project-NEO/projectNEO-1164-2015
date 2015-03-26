@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "172.24.15.51"
+My Computer = "10.251.90.110"
 
 [Target]
 Target = "roboRIO-1164.local"
