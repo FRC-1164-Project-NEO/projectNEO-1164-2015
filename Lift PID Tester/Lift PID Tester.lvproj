@@ -125,7 +125,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Lift PID Control for tester.vi" Type="VI" URL="../Lift PID Control for tester.vi"/>
-		<Item Name="Lift Re-index Values.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Re-index Values.vi"/>
+		<Item Name="Lift Re-index Values.vi" Type="VI" URL="../../SubVI/Lift Re-index Values.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -530,6 +530,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_ERRMotorControlCANJaguarFirmware.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_ERRMotorControlCANJaguarFirmware.vi"/>
 				<Item Name="WPI_ERRNoFreeCounter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_ERRNoFreeCounter.vi"/>
 				<Item Name="WPI_ERRPwmChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRPwmChannelAllocated.vi"/>
+				<Item Name="WPI_GyroDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroDevRef.ctl"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
@@ -644,6 +645,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
 				<Item Name="WPI_SetFilterFrequency.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_SetFilterFrequency.vi"/>
+				<Item Name="WPI_SolenoidChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl"/>
+				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
 				<Item Name="WPI_SwitchDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchDevRef.ctl"/>
 				<Item Name="WPI_SwitchGetLimitValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchGetLimitValue.vi"/>
 				<Item Name="WPI_SwitchOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchOpen.vi"/>
@@ -655,18 +658,24 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="End of actuater limiter.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/End of actuater limiter.vi"/>
+			<Item Name="cluster data.ctl" Type="VI" URL="../../SubVI/cluster data.ctl"/>
+			<Item Name="End of actuater limiter.vi" Type="VI" URL="../../SubVI/End of actuater limiter.vi"/>
+			<Item Name="equationCalculator.vi" Type="VI" URL="../../SubVI/Motion Profiler/equationCalculator.vi"/>
+			<Item Name="firstTimePeriodSolver.vi" Type="VI" URL="../../SubVI/Motion Profiler/firstTimePeriodSolver.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Joystick Deadband.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Joystick Deadband.vi"/>
-			<Item Name="Lift Control Logic.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Control Logic.vi"/>
-			<Item Name="Lift Grab Crate State Machine.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Grab Crate State Machine.vi"/>
-			<Item Name="Lift Joystick Activity.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Joystick Activity.vi"/>
-			<Item Name="Lift Joystick Get.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Joystick Get.vi"/>
-			<Item Name="Lift PID Raw Control.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift PID Raw Control.vi"/>
-			<Item Name="Lift Positioner thing.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Positioner thing.vi"/>
-			<Item Name="Lift Scale Potentiometer.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/Lift Scale Potentiometer.vi"/>
+			<Item Name="Joystick Deadband.vi" Type="VI" URL="../../SubVI/Joystick Deadband.vi"/>
+			<Item Name="Lift Control Logic.vi" Type="VI" URL="../../SubVI/Lift Control Logic.vi"/>
+			<Item Name="Lift Grab Crate State Machine.vi" Type="VI" URL="../../SubVI/Lift Grab Crate State Machine.vi"/>
+			<Item Name="Lift Joystick Activity.vi" Type="VI" URL="../../SubVI/Lift Joystick Activity.vi"/>
+			<Item Name="Lift Joystick Get.vi" Type="VI" URL="../../SubVI/Lift Joystick Get.vi"/>
+			<Item Name="Lift PID Raw Control.vi" Type="VI" URL="../../SubVI/Lift PID Raw Control.vi"/>
+			<Item Name="Lift Positioner thing.vi" Type="VI" URL="../../SubVI/Lift Positioner thing.vi"/>
+			<Item Name="Lift Scale Potentiometer.vi" Type="VI" URL="../../SubVI/Lift Scale Potentiometer.vi"/>
+			<Item Name="Max profiles.ctl" Type="VI" URL="../../SubVI/Motion Profiler/Max profiles.ctl"/>
+			<Item Name="Motion Profiler.vi" Type="VI" URL="../../SubVI/Motion Profiler/Motion Profiler.vi"/>
+			<Item Name="MotionProfileSolver.vi" Type="VI" URL="../../SubVI/Motion Profiler/MotionProfileSolver.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -679,16 +688,23 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PID Block.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Block.vi"/>
-			<Item Name="PID Calculate D.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Calculate D.vi"/>
-			<Item Name="PID Calculate I.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Calculate I.vi"/>
-			<Item Name="PID Calculate Outputs.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Calculate Outputs.vi"/>
-			<Item Name="PID Calculate P.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Calculate P.vi"/>
-			<Item Name="PID Calculate PID.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Calculate PID.vi"/>
-			<Item Name="PID Coerce Into Range.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Coerce Into Range.vi"/>
-			<Item Name="PID Deadband Timeout.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Deadband Timeout.vi"/>
-			<Item Name="PID dT.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID dT.vi"/>
-			<Item Name="PID Error.vi" Type="VI" URL="../../../../Desktop/projectNEO-1164-2015/SubVI/PID Error.vi"/>
+			<Item Name="PID Block.vi" Type="VI" URL="../../SubVI/PID Block.vi"/>
+			<Item Name="PID Calculate D.vi" Type="VI" URL="../../SubVI/PID Calculate D.vi"/>
+			<Item Name="PID Calculate I.vi" Type="VI" URL="../../SubVI/PID Calculate I.vi"/>
+			<Item Name="PID Calculate Outputs.vi" Type="VI" URL="../../SubVI/PID Calculate Outputs.vi"/>
+			<Item Name="PID Calculate P.vi" Type="VI" URL="../../SubVI/PID Calculate P.vi"/>
+			<Item Name="PID Calculate PID.vi" Type="VI" URL="../../SubVI/PID Calculate PID.vi"/>
+			<Item Name="PID Coerce Into Range.vi" Type="VI" URL="../../SubVI/PID Coerce Into Range.vi"/>
+			<Item Name="PID Deadband Timeout.vi" Type="VI" URL="../../SubVI/PID Deadband Timeout.vi"/>
+			<Item Name="PID dT.vi" Type="VI" URL="../../SubVI/PID dT.vi"/>
+			<Item Name="PID Error.vi" Type="VI" URL="../../SubVI/PID Error.vi"/>
+			<Item Name="Postion Finder.vi" Type="VI" URL="../../SubVI/Motion Profiler/Postion Finder.vi"/>
+			<Item Name="Profiler Shift.ctl" Type="VI" URL="../../SubVI/Motion Profiler/Profiler Shift.ctl"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../../Robot Global Data.vi"/>
+			<Item Name="Segment Creater.vi" Type="VI" URL="../../SubVI/Motion Profiler/Segment Creater.vi"/>
+			<Item Name="Short segment creater.vi" Type="VI" URL="../../SubVI/Motion Profiler/Short segment creater.vi"/>
+			<Item Name="TimeSegment.ctl" Type="VI" URL="../../SubVI/Motion Profiler/TimeSegment.ctl"/>
+			<Item Name="TimeSegments.ctl" Type="VI" URL="../../SubVI/Motion Profiler/TimeSegments.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

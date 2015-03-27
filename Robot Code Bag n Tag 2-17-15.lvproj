@@ -321,14 +321,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
 				<Item Name="roboRIO_FPGA_2015_1.0.10.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2015_1.0.10.lvbitx"/>
 				<Item Name="Safe Image Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
-				<Item Name="SD Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean Array.vi"/>
-				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
-				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
-				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
-				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
-				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
-				<Item Name="SD Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String.vi"/>
-				<Item Name="SD Read Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Value.vi"/>
 				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
@@ -713,14 +705,37 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Autonomous Drive Distance.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Drive Distance.vi"/>
+			<Item Name="Autonomous Lift Gripper Pickup.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Lift Gripper Pickup.vi"/>
+			<Item Name="Autonomous Lift Set Setpoint.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Lift Set Setpoint.vi"/>
+			<Item Name="Autonomous Package Drive DevRefs.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Package Drive DevRefs.vi"/>
+			<Item Name="Autonomous Package Lift DevRefs.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Package Lift DevRefs.vi"/>
+			<Item Name="Autonomous Shift High.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Shift High.vi"/>
+			<Item Name="Autonomous Shift Low.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Shift Low.vi"/>
+			<Item Name="Autonomous Turn Degrees.vi" Type="VI" URL="../SubVI/Autonomous/Autonomous Turn Degrees.vi"/>
 			<Item Name="Drive PID.vi" Type="VI" URL="../SubVI/Drive PID.vi"/>
+			<Item Name="Drive Precision Filter.vi" Type="VI" URL="../SubVI/Drive Precision Filter.vi"/>
+			<Item Name="Drive Shifter.vi" Type="VI" URL="../SubVI/Drive Shifter.vi"/>
+			<Item Name="equationCalculator.vi" Type="VI" URL="../SubVI/Motion Profiler/equationCalculator.vi"/>
+			<Item Name="firstTimePeriodSolver.vi" Type="VI" URL="../SubVI/Motion Profiler/firstTimePeriodSolver.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Joystick Deadband.vi" Type="VI" URL="../SubVI/Joystick Deadband.vi"/>
+			<Item Name="Lift Control Logic.vi" Type="VI" URL="../SubVI/Lift Control Logic.vi"/>
+			<Item Name="Lift Grab Crate State Machine.vi" Type="VI" URL="../SubVI/Lift Grab Crate State Machine.vi"/>
+			<Item Name="Lift Joystick Activity.vi" Type="VI" URL="../SubVI/Lift Joystick Activity.vi"/>
 			<Item Name="Lift Joystick Get.vi" Type="VI" URL="../SubVI/Lift Joystick Get.vi"/>
-			<Item Name="Lift PID Control.vi" Type="VI" URL="../SubVI/Lift PID Control.vi"/>
+			<Item Name="Lift PID Control for tester.vi" Type="VI" URL="../Lift PID Tester/Lift PID Control for tester.vi"/>
+			<Item Name="Lift PID Raw Control.vi" Type="VI" URL="../SubVI/Lift PID Raw Control.vi"/>
 			<Item Name="Lift Positioner thing.vi" Type="VI" URL="../SubVI/Lift Positioner thing.vi"/>
+			<Item Name="Lift Re-index Values.vi" Type="VI" URL="../SubVI/Lift Re-index Values.vi"/>
+			<Item Name="Lift Scale Potentiometer.vi" Type="VI" URL="../SubVI/Lift Scale Potentiometer.vi"/>
+			<Item Name="Lift Set Gripper.vi" Type="VI" URL="../SubVI/Lift Set Gripper.vi"/>
+			<Item Name="Lift Set Motors.vi" Type="VI" URL="../SubVI/Lift Set Motors.vi"/>
+			<Item Name="Max profiles.ctl" Type="VI" URL="../SubVI/Motion Profiler/Max profiles.ctl"/>
+			<Item Name="Motion Profiler.vi" Type="VI" URL="../SubVI/Motion Profiler/Motion Profiler.vi"/>
+			<Item Name="MotionProfileSolver.vi" Type="VI" URL="../SubVI/Motion Profiler/MotionProfileSolver.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -743,7 +758,13 @@ AddOutputFilter chunkFilter
 			<Item Name="PID Deadband Timeout.vi" Type="VI" URL="../SubVI/PID Deadband Timeout.vi"/>
 			<Item Name="PID dT.vi" Type="VI" URL="../SubVI/PID dT.vi"/>
 			<Item Name="PID Error.vi" Type="VI" URL="../SubVI/PID Error.vi"/>
+			<Item Name="Postion Finder.vi" Type="VI" URL="../SubVI/Motion Profiler/Postion Finder.vi"/>
+			<Item Name="Profiler Shift.ctl" Type="VI" URL="../SubVI/Motion Profiler/Profiler Shift.ctl"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="Segment Creater.vi" Type="VI" URL="../SubVI/Motion Profiler/Segment Creater.vi"/>
+			<Item Name="Short segment creater.vi" Type="VI" URL="../SubVI/Motion Profiler/Short segment creater.vi"/>
+			<Item Name="TimeSegment.ctl" Type="VI" URL="../SubVI/Motion Profiler/TimeSegment.ctl"/>
+			<Item Name="TimeSegments.ctl" Type="VI" URL="../SubVI/Motion Profiler/TimeSegments.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -759,10 +780,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/FRC 2015/projectNEO-1164-2015/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -772,7 +793,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB01CD21-4447-4671-A00A-D774E7A6FDE1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7DB16503-C34D-4349-B951-4AE7035B2C68}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
